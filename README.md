@@ -19,20 +19,20 @@ This project uses **node v7.6.0** and **npm v4.1.2**
 ###Getting Started
 
 Install the correct Node version if you do not already have it
-- `nvm ls` will list installed Node version
+- `nvm ls` will list installed Node versions
 - `nvm install` will install the preferred Node version in the `.nvmrc`
 
 Switch to the correct Node version
 - `nvm use`
 
-Now that we are in correct Node version, lets install our node modules
+Now that we using the correct Node version, lets install our Node modules
 - `npm i`
 
 Lastly, lets kick up a server on `http://localhost:3000/` with the game
 - `npm start`
 - A browser window should open automatically but if it doesnt, proceed to `http://localhost:3000/`
 
-####Notes
+###Notes
 
 The core of the game logic can be found in the `cards` reducer and the root saga
  - `src/js/reducers/card.js`
