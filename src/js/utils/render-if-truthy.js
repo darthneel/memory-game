@@ -1,5 +1,5 @@
 import {isString} from 'lodash';
-import {Immutable} from 'nuclear-js';
+import Immutable from 'immutable';
 
 const isTruthy = (val) => {
   let ret = !!val;
